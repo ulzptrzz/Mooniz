@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blubites</title>
+    <title>Mooniz</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bree+Serif&family=DynaPuff:wdth,wght@87.5,400..700&display=swap" rel="stylesheet"> 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
       <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -18,159 +17,161 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold fs-4" style="color: #03a3ff;" href="#">Blubites</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#menu">Menu</a>
-                    <a class="nav-link" href="#about">About Us</a>
-                    <a class="nav-link" href="#delivery">Delivery</a>
+    <main>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-4" style="color: #ff0303;" href="#">Mooniz</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#menu">Menu</a>
+                        <a class="nav-link" href="#about">About Us</a>
+                        <a class="nav-link" href="#delivery">Delivery</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero text-white text-center py-5">
-        <div class="container pb-5 mb-5">
-            <div class="lelehan"><img src="./asset/lelehan_coklat.png"></div>
-            <div class="lelehan-1"><img src="./asset/lelehan_coklat.png"></div>
-            <div class="elemen-es"><img src="./asset/elemen_batu.png"></div>
-            <h1 class="fw-bold display-5 pt-5 text-white mt-5">Temukan Kenikmatan Mochi & Ocean Blue Jelly</h1>
-            <p class="lead text-white">Rasakan perpaduan sempurna antara rasa dan tekstur yang dibuat khusus untuk Anda.</p>
-            <a href="#menu" class="btn btn-light mt-3 px-4 py-2 fw-bold text-info mb-5 rounded-pill">Jelajahi Menu</a>
-            <div class="water_splash"><img src="./asset/cokelat.png"></div>
-        </div>
-    </section>
-
-    <!-- Popular Now Section -->
-    <div class="container py-5" id="menu">
-        <h2 class="text-center fw-bold mb-5">Populer <span style="color: #03a3ff;">Sekarang</span></h2>
-        <div class="row g-4 justify-content-center">
-            <!-- Card 1 -->
-            <div class="col-md-4 col-sm-6">
-                <div class="card">
-                    <span class="rate position-absolute rounded-pill">4.9 <i class="fa fa-star"></i></span>
-                    <img src="./asset/download.jpeg" class="card-img-top" alt="Mochi Cokelat">
-                    <div class="card-body d-flex align-items-center">
-                        <h5 class="flex-grow-1">Mochi Cokelat</h5>
-                        <h5 class="price px-3">12 k</h5>
-                        <div class="add-cart">
-                            <i class="fa fa-shopping-cart"></i>
+        </nav>
+     
+        <!-- Hero Section -->
+        <section class="hero text-white text-center py-5 bg-opacity-50">
+            <div class="container pb-5 mb-5">
+                <div class="py-3">
+                    <div class="elemen-es">
+                        <img class="img-fluid" src="./asset/elemen_batu.png" alt="Elemen Es">
+                    </div>
+                    
+                    <div class="water_splash">
+                        <img class="img-fluid" src="./asset/cokelat.png" alt="Water Splash">
+                    </div>
+                    <h1 class="fw-bold display-5 pt-5 text-white mt-5">Temukan Kenikmatan Mochi & Ocean Blue Jelly</h1>
+                    <p class="lead text-white">Rasakan perpaduan sempurna antara rasa dan tekstur yang dibuat khusus untuk Anda.</p>
+                    <a href="#menu" class="btn btn-danger mt-5 px-4 py-2 fw-bold mb-5 rounded-pill">Jelajahi Menu</a>
+                    
+                </div>
+            </div>
+        </section>
+     
+        <!-- Popular Now Section -->
+        <div class="container py-5" id="menu">
+            <h2 class="text-center text-dark fw-bold mb-5">Populer <span style="color: #ff0303;">Sekarang</span></h2>
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-md-4 col-sm-7">
+                    <div class="card">
+                        <span class="rate position-absolute rounded-pill">4.9 <i class="fa fa-star"></i></span>
+                        <img src="./asset/download.jpeg" class="card-img-top" alt="Mochi Cokelat">
+                        <div class="card-body d-flex align-items-center">
+                            <h4 class="flex-grow-1">Mochi Cokelat</h4>
+                            <h4 class="px-4">8 k</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 col-sm-7">
+                    <div class="card">
+                        <span class="rate position-absolute rounded-pill">4.9 <i class="fa fa-star"></i></span>
+                        <img src="./asset/ocean.jpeg" class="card-img-top" alt="Ocean Blue Jelly">
+                        <div class="card-body d-flex align-items-center">
+                            <h4 class="flex-grow-1">Ocean Blue Jelly</h4>
+                            <h4 class="px-4">5 k</h4>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Card 2 -->
-            <div class="col-md-4 col-sm-6">
-                <div class="card">
-                    <span class="rate position-absolute rounded-pill">4.9 <i class="fa fa-star"></i></span>
-                    <img src="./asset/ocean.jpeg" class="card-img-top" alt="Ocean Blue Jelly">
-                    <div class="card-body d-flex align-items-center">
-                        <h5 class="flex-grow-1">Ocean Blue Jelly</h5>
-                        <h5 class="price px-3">12 k</h5>
-                        <div class="add-cart">
-                            <i class="fa fa-shopping-cart"></i>
-                        </div>
-                    </div>
+        </div>
+     
+         <!-- Mochi & Jelly Highlight -->
+        <section class="bg-light py-5" id="about">
+            <div class="container text-center">
+                <h2 class="fw-bold text-dark mb-4">About<span style="color: #ff0303;"> Us</span></h2>
+                <p class="lead">Kami adalah siswi SMKN 1 Kota Bekasi jurusan RPL dari kelas XI RPL A. Ini merupakan salah satu projek kami terkait kolaborasi antara pembelajaran Kewirausahaan dengan pembelajaran jurusan yaitu pengembangan web. Mooniz menyajikan cemilan manis yang siap meningkatkan mood Anda! Melalui website ini Anda dapat melihat sekaligus memesan produk Mooniz yaitu Mochi Bites dan Ocean Blue Jelly. Yukss segera pesan!! </p>
+            </div>
+        </section>
+     
+        <!--Form Section-->
+        <div class="container-fluid mt-5 " id="delivery">
+            <h2 class="py-5 text-center text-dark fw-bold">Layanan <span style="color: #ff0303;"> Pemesanan</span></h2>
+            <div class="row text-center mt-4">
+                <div class="col-md-4 favorite">
+                    <img class="img-fluid" src="./asset/foodfav.png" alt="Choose Coffee">
+                    <p class="fs-4 fw-bold">Pilih Favorit Anda</p>
+                    <p>Dari Mochi hingga Jelly yang menyegarkan, pilihlah camilan yang paling Anda sukai.</p>
+                </div>
+                <div class="col-md-4 transaksi">
+                    <img class="img-fluid" src="./asset/transaksi.png" alt="Delivery">
+                    <p class="fs-4 fw-bold">Pembayaran Di Event</p>
+                    <p>Sistem Pembayaran di lakukan dalam event berlangsung</p>
+                </div>
+                <div class="col-md-4 enjoy">
+                    <img class="img-fluid" src="./asset/enjoy.png" alt="Enjoy Coffee">
+                    <p class="fs-4 fw-bold">Nikmati Keajaibannya</p>
+                    <p>Nikmati setiap gigitan dan tegukan!</p>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Mochi & Jelly Highlight -->
-    <section class="bg-light py-5" id="about">
-        <div class="container text-center">
-            <h2 class="fw-bold mb-4">Mengapa Mochi & Ocean Blue Jelly</h2>
-            <p class="lead">Mochi Cokelat menawarkan tekstur yang kaya dan kenyal dengan semburan coklat, sedangkan Ocean Blue Jelly menghadirkan rasa yang menyegarkan dan semarak di hari Anda. Cobalah hari ini dan rasakan keajaibannya!</p>
-        </div>
-    </section>
-
-    <!--Form Section-->
-    <div class="container-fluid mt-5 " id="delivery">
-        <h2 class="py-5 text-center fw-bold">Layanan <span style="color: #03a3ff;"> Pemesanan</span></h2>
-        <div class="row text-center mt-4">
-            <div class="col-md-4">
-                <img class="img-fluid w-80" src="./asset/foodfav.png" alt="Choose Coffee">
-                <p class="fs-4 fw-bold">Pilih Favorit Anda</p>
-                <p>Dari Mochi hingga Jelly yang menyegarkan, pilihlah camilan yang paling Anda sukai.</p>
-            </div>
-            <div class="col-md-4">
-                <img class="img-fluid w-80" src="./asset/delivery.png" alt="Delivery">
-                <p class="fs-4 fw-bold">Pembayaran Di Event</p>
-                <p>Sistem Pembayaran di lakukan dalam event berlangsung</p>
-            </div>
-            <div class="col-md-4">
-                <img class="img-fluid w-40" src="./asset/enjoy.png" alt="Enjoy Coffee">
-                <p class="fs-4 fw-bold">Nikmati Keajaibannya</p>
-                <p>Nikmati setiap gigitan dan tegukan!</p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="content">
-        <div class="container d-flex justify-content-center mt-5">
-            <div class="col-lg-6">
-                <div class="panel panel-success">
-                    <h3 class="fw-bold text-dark mt-5">Kirim Ke WhatsApp <span style="color: #03a3ff;"> Untuk Memesan </span></h3>
-                    <div class="panel-body">
-                        <div class="form-group">
-                            <label>Name</label>
-                            <input type="text" name="name" class="form-control" placeholder="Name" id="name">
+         
+        <div class="content">
+            <div class="container d-flex justify-content-center mt-5">
+                <div class="col-lg-6">
+                    <div class="panel panel-success">
+                        <h3 class="fw-bold text-dark mt-5">Kirim Ke WhatsApp <span style="color: #ff0303;"> Untuk Memesan </span></h3>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" name="name" class="form-control" placeholder="Nama" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label>No. WhatsApp</label>
+                                <input type="text" name="phone" class="form-control" placeholder="No. WhatsApp" id="phone">
+                            </div>
+                            <div class="form-group">
+                                <label>Pilih Product</label>
+                                <select name="product" class="form-control" id="product">
+                                    <option value="">-- Pilih Menu --</option>
+                                    <option value="Mochi Bites">Mochi Bites</option>
+                                    <option value="Ocean Blue Jelly">Ocean Blue jelly</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Jumlah Barang</label>
+                                <select name="jumlah_product" class="form-control" id="jumlah_product">
+                                    <option value="">-- Pilih Jumlah --</option>
+                                    <option value="satu">1</option>
+                                    <option value="dua">2</option>
+                                    <option value="tiga">3</option>
+                                    <option value="empat">4</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Additional Note </label>
+                                <textarea name="description" class="form-control" rows="9" id="description" placeholder="Catatan Tambahan"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-danger send mt-4">Send Form Via WhatsApp</button>
+                            </div>
+                            <div id="text-info"></div>
                         </div>
-                        <div class="form-group">
-                            <label>No. WhatsApp</label>
-                            <input type="text" name="phone" class="form-control" placeholder="No. WhatsApp" id="phone">
-                        </div>
-                        <div class="form-group">
-                            <label>Pilih Product</label>
-                            <select name="product" class="form-control" id="product">
-                                <option value="">-- Pilih Menu --</option>
-                                <option value="Mochi Bites">Mochi Bites</option>
-                                <option value="Ocean Blue Jelly">Ocean Blue jelly</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Jumlah Barang</label>
-                            <select name="jumlah_product" class="form-control" id="jumlah_product">
-                                <option value="">-- Pilih Jumlah --</option>
-                                <option value="satu">1</option>
-                                <option value="dua">2</option>
-                                <option value="tiga">3</option>
-                                <option value="empat">4</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Additional Note </label>
-                            <textarea name="description" class="form-control" rows="9" id="description" placeholder="Catatan Tambahan"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button class="btn btn-info send mt-4">Send Form Via WhatsApp</button>
-                        </div>
-                        <div id="text-info"></div>
                     </div>
                 </div>
-            </div>
-        </div>   
-    </div>
-
-    <!-- footer -->
-     <footer class="bg-light py-5 mt-5" id="about">
-        <div class="container">
-            <h2 class="fw-bold mb-4">Contact us</h2>
-            <div class="">
-                <p>Gmail: bluebites6@gmail.com</p>
-                <p>Contact: 0896-5253-7359</p>
-                <hr />
-                <p class="text-end">&copy; Created By AZAM XI RPL A</p>
-            </div>
+            </div>   
         </div>
-    </footer>
+     
+        <!-- footer -->
+        <footer class="bg-light py-5 mt-5" id="about">
+            <div class="container">
+                <h2 class="fw-bold mb-4">Contact us</h2>
+                <div class="">
+                    <p>Gmail: bluebites6@gmail.com</p>
+                    <p>Contact: 0896-5253-7359</p>
+                    <hr />
+                    <p class="text-end">&copy; Created By AZAM XI RPL A</p>
+                </div>
+            </div>
+        </footer>
+    </main>
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>

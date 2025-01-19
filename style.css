@@ -1,15 +1,5 @@
 * {
-    font-family: 'Poppins', sans-serif;
-}
-
-nav{
-    position: sticky;
-}
-
-.bg {
-    z-index: -5;
-    background-color: #f6eada;
-    height: 400px;
+    font-family: 'DynaPuff', sans-serif;
 }
 
 .btn{
@@ -19,17 +9,16 @@ nav{
 }
 
 .btn:hover {
-    background-color: #b5ffe6;
-    color: #fff;
+    background-color: #ffb5b5;
+    color: #ff2222;
     transform: translateY(-3px);
     box-shadow: 0 9px 14px rgba(0, 0, 0, 0.5);
 }
 
-
 .hero {
-    background: linear-gradient(135deg, #2a75ff, #03a3ff, #4dcdff);
-    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('asset/background.png');
     text-align: center;
+    margin-top: 4%; 
     padding: 100px 20px 120px 20px;
     overflow: hidden;
     position: relative;
@@ -62,29 +51,6 @@ p{
     rotate: 15deg;
 }
 
-.lelehan{
-    position: absolute;
-    top: -10px;
-    left: -40px;
-}
-
-.lelehan-1 {
-    position: absolute;
-    top: -10px;
-    transform: scaleX(-1);
-    right: -110px;
-}
-
-.lelehan img{
-    width: 120vh;
-    height: 220px;
-}
-
-.lelehan-1 img{
-    width: 120vh;
-    height: 220px;
-}
-
 .water_splash{
     position: absolute;
     bottom: 50px;
@@ -93,7 +59,7 @@ p{
 }
 
 .water_splash img{
-    width: 30vh;
+    width: 25vh;
     height: 220px;
 }
 
@@ -101,7 +67,7 @@ p{
 .card {
     position: relative;
     border: none;
-    background-color: #e3fcf8;
+    background-color: #fce3e3;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     overflow: hidden;
@@ -124,10 +90,10 @@ p{
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color: #03a3ff;
+    background-color: #ff0303;
     color: white;
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: bold;
 }
 
@@ -146,30 +112,26 @@ p{
 }
 
 .price {
-    font-size: 16px;
+    font-size: 30px;
     color: #444;
     font-weight: bold;
-}
-
-.add-cart {
-    width: 40px;
-    height: 40px;
-    background-color: #03a3ff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.add-cart i {
-    color: white;
-    font-size: 20px;
 }
 
 /* Image Styling */
 img {
     border-radius: 20px;
+}
+
+.transaksi img {
+    width: 50%;
+}
+
+.favorite img {
+    width: 75%;
+}
+
+.enjoy img {
+    width: 50%;
 }
 
 /* Form Styling */
@@ -187,4 +149,33 @@ img {
     transform: translateY(-50%);
     right: 0px;
     z-index: 13;
+}
+
+/* Responsive Styling */
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 800px) {
+    .elemen-es img {
+        width: 20vh;
+        height: 200px;
+    }
+    
+    .water_splash img{
+        width: 20vh;
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .elemen-es img {
+        width: 15vh;
+        height: 180px;
+    }
+    
+    .water_splash img{
+        width: 15vh;
+        height: 180px;
+    }
 }
