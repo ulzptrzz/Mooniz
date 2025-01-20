@@ -8,7 +8,7 @@ $(document).on('click','.send', function(){
  
     /* Whatsapp Setting */
     var walink      = 'https://web.whatsapp.com/send',
-        phone       = '6289686769080',
+        phone       = '6289652537359',
         text        = 'Hello Aku ingin membeli',
         text_yes    = 'Your order was successfully sent.',
         text_no     = 'Fill this form to order.';
