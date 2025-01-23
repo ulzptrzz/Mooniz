@@ -184,7 +184,7 @@ img {
 /* Responsivitas untuk Card di Popular Section */
 @media (max-width: 576px) {
     .about {
-        background-size: 220vh;
+        background-position: center;
     }
     .card h4 {
         font-size: 1.5rem;
